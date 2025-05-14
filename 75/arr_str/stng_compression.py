@@ -73,7 +73,7 @@ def compress(chars):
 # Test cases
 chars = ["a", "a", "b", "b", "c", "c", "c"]
 print(compress(chars))  # Output: 6
-print(chars[:6])        # Output: ['a', '2', 'b', '2', 'c', '3']
+print(chars[:6])        # Output: ['a', '2', 'b', '2', 'c', '3'] ,8
 
 chars = ["a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"]
 print(compress(chars))  # Output: 4
