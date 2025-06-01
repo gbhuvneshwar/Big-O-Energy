@@ -32,8 +32,7 @@ def move_zeroes(nums):
             # Swap the current element with the position of the non-zero pointer
             nums[non_zero], nums[i] = nums[i], nums[non_zero]
             non_zero += 1
-            print(nums)
-            print("*"*100)
+
 
 # Example usage
 nums = [0, 1, 0, 3, 12]
